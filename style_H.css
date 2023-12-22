@@ -1,0 +1,24 @@
+.w3-theme-H {
+    color: #000 !important;
+    background-color: #bfd9cd !important;
+}
+
+.w3-button-H {
+    color: #366e58 !important;
+}
+
+.w3-button-H:hover {
+    color: #fff !important;
+}
+
+.H_text {
+    font-family: "Prosto One", TaHoma, Verdana, Arial, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #fff;
+    filter: drop-shadow( 0px 2px 2px #0007)
+}
+
+
+  
