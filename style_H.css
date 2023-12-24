@@ -46,5 +46,18 @@
     width: 542px;
     top: 13px;
     left: 3px;
+}
+
+#tvDiv {
+    height: 450px;
+    width: 1500px;
+    top: 0%;
+    left: 0%;
+}
+
+#tvScreen {
+    height: 360px;
+    width: 620px;
+    top: 5px;
+    left: 177px;
   }
-  
