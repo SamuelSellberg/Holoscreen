@@ -6,6 +6,7 @@
     </head>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link type="text/css" rel="stylesheet" href="https://samuelsellberg.github.io/style.css" />
+  <!-- <link type="text/css" rel="stylesheet" href="temp.css" /> -->
   <link type="text/css" rel="stylesheet" href="style_H.css" />
   <link href='https://fonts.googleapis.com/css?family=Prosto One' rel='stylesheet'>
   <link rel="icon" type="image/x-icon" href="https://samuelsellberg.github.io/docs/assets/vectors/favicon.ico">
@@ -35,6 +36,7 @@
         <div class="w3-right w3-hide-small">
           <a href="About3D.html" class="w3-bar-item w3-button-H">About 3D<svg width="0" height="30" style="vertical-align: middle"></svg></a>
           <a href="Vision.html" class="w3-bar-item w3-button-H">Vision<svg width="0" height="30" style="vertical-align: middle"></svg></a>
+          <a href="Posibilities.html" class="w3-bar-item w3-button-H">Posibilities<svg width="0" height="30" style="vertical-align: middle"></svg></a>
           <a href="Investment.html" class="w3-bar-item w3-button-H">Investment<svg width="0" height="30" style="vertical-align: middle"></svg></a>
         </div>
       </div>
@@ -49,7 +51,7 @@
     <!-- Header -->
     <header class="w3-display-container w3-wide" id="home" align="center">
         <svg width="10" height="20" style="background-color: #ffffff00"></svg>
-        <img class="w3-image w3-wide parallax" src="https://samuelsellberg.github.io/docs\assets\images\H_front.jpg" width="max">
+        <img id="frontParallax" class="w3-image w3-wide parallax" src="assets/images/H_front.jpg" data-upperoffset="20" data-loweroffset="0">
 	    <div class="w3-display-middle w3-margin-top w3-center" style="left: 25%; top: 30%; position: absolute">
             <h1 class="w3-xxlarge w3-text-white">
                 <svg width="500px" style="position: absolute">
@@ -71,8 +73,7 @@
       </p>
 
       <div width="300px" align="center">
-        <img class="w3-image w3-wide parallax" scr="assets/images/Wulingyuan.jpg">
-        <img class="w3-image w3-wide parallax" src="https://samuelsellberg.github.io/docs\assets\images\H_front.jpg">
+        <img id="lightParallax" class="w3-image parallax" src="assets/images/Wulingyuan2.jpg" data-upperoffset="0" data-loweroffset="-50">
       </div>
 
 
@@ -95,5 +96,6 @@
   </body>
 
   <script type="text/javascript" src="https://samuelsellberg.github.io/script.js"></script>
+  <!-- <script type="text/javascript" src="temp.js"></script> -->
 
 </html>
