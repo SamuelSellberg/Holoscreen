@@ -20,6 +20,19 @@
     filter: drop-shadow( 0px 2px 2px #0007)
 }
 
+.H_bigText {
+    margin-left: 90px;
+    margin-right: 90px;
+    font-family: "Prosto One", TaHoma, Verdana, Arial, sans-serif;
+    font-size: 30px;
+    word-break: normal;
+    /* letter-spacing: 2px; */
+    text-align: justify;
+    /* text-align: center; */
+    text-align-last: center;
+    color: #5a686f;
+}
+
 .H_container {
     position: relative;
 }
@@ -60,4 +73,8 @@
     width: 620px;
     top: 5px;
     left: 177px;
-  }
+}
+
+#H_topLogo {
+    color: #5a686f;
+}
