@@ -47,6 +47,13 @@
     left: 0px;
 }
 
+#frontParallax {
+    height: 500px;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+
 #phoneDiv {
     height: 297px;
     width: 616px;
