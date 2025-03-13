@@ -3,6 +3,7 @@
     <head>
       <meta name="google-site-verification" content="FhT_z4Z8wlxj2ie9N37_IrdNQgZq8Mw3UXjdxzwVVQI" />
       <meta name="theme-color" content="#bfd9cd" />
+      <!--<meta name="viewport" content="initial-scale=0.1" />-->
     </head>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link type="text/css" rel="stylesheet" href="https://samuelsellberg.github.io/style.css" />
@@ -49,17 +50,17 @@
 
     <!-- Header -->
     <header class="w3-display-container w3-wide" id="home" align="center">
-        <svg width="10" height="20" style="background-color: #ffffff00"></svg>
-        <img class="w3-image w3-wide parallax" src="assets/images/H_front.jpg" width="max">
-	    <div class="w3-display-middle w3-margin-top w3-center" style="left: 25%; top: 30%; position: absolute">
-            <h1 class="w3-xxlarge w3-text-white">
-                <svg width="500px" style="position: absolute">
-                    <rect x="0" y="120" height="8px" width="500px" style="fill: #77eebe; filter: drop-shadow( 0px 2px 2px #0007)"/>
-                    <img width="500px" src="https://samuelsellberg.github.io/docs/assets/vectors/HoloscreenLogoText2.svg" style="filter: drop-shadow( 0px 2px 2px #0007)"/>
-                    <h1 class="H_headingText"><br>bringing Imagination<br>to Reality</h1>
-                </svg>
-            </h1>
-        </div>
+      <svg width="10" height="20" style="background-color: #ffffff00"></svg>
+      <img id="frontParallax" class="w3-image w3-wide parallax" src="assets/images/H_front.jpg" data-upperoffset="20" data-loweroffset="0">
+      <div class="w3-display-middle w3-margin-top w3-center" style="left: 25%; top: 30%; position: absolute">
+          <h1 class="w3-xxlarge w3-text-white">
+              <svg width="500px" style="position: absolute">
+                  <rect x="0" y="120" height="8px" width="500px" style="fill: #77eebe; filter: drop-shadow( 0px 2px 2px #0007)"/>
+                  <img width="500px" src="assets/vectors/HoloscreenLogoText2.svg" style="filter: drop-shadow( 0px 2px 2px #0007)"/>
+                  <h1 class="H_headingText"><br>bringing Imagination<br>to Reality</h1>
+              </svg>
+          </h1>
+      </div>
     </header>
 
     <!-- Page content -->
@@ -73,8 +74,7 @@
 
     </div>
 
-    <div w3-include-html="Socials.html"></div>
-    <script>includeHTML();</script>
+    <iframe src="Socials.html" onload="this.before(...(this.contentWindow.document.body||this.contentWindow.document).children);this.remove()"></iframe>
 
   </body>
 
